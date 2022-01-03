@@ -1,10 +1,7 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
-const links = [
-	{ label: 'Story', href: '/story' },
-	{ label: 'Recipes', href: '/recipes' },
-]
+const links = [{ label: 'Contact', href: '/contact' }]
 
 const Appbar = () => {
 	const router = useRouter()
@@ -15,7 +12,7 @@ const Appbar = () => {
 				<div className='mx-auto px-6 max-w-screen-md h-20 flex items-center justify-between'>
 					<Link href='/'>
 						<a>
-							<h1 className='font-medium'>Rice Bowl</h1>
+							<h1 className='font-medium'>Flight tracky</h1>
 						</a>
 					</Link>
 
@@ -43,7 +40,7 @@ const Appbar = () => {
 							className='w-10 h-10 bg-zinc-200 dark:bg-zinc-800 bg-cover bg-center rounded-full shadow-inner'
 							style={{
 								backgroundImage:
-									'url(https://images.unsplash.com/photo-1612480797665-c96d261eae09?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80)',
+									'url(https://images.unsplash.com/photo-1595776406699-ae3031ee2b08?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80)',
 							}}
 						/>
 					</nav>

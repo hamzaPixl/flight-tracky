@@ -1,12 +1,12 @@
 <p align="center">
-	<img alt="Rice Bowl" src="public/images/icon-512.png" width="90">
+	<img alt="Flight tracky" src="public/images/icon-512.png" width="90">
 	<h2 align="center">Next PWA Template</h2>
 </p>
 
 <p align="center">Fluffless app template to inspire less</p>
 
 <p align="center">
-	<a href="https://next-pwa-template.now.sh">Live demo</a>
+	<a href="https://flight-tracky.now.sh">Live demo</a>
 </p>
 
 <p align="center">
@@ -28,7 +28,7 @@
 
 ## Getting started
 
-1. [Use this template](https://github.com/mvllow/next-pwa-template/generate)
+1. [Use this template](https://github.com/mvllow/flight-tracky/generate)
 2. Replace `public/images` with your own
 3. Enjoy ✨
 

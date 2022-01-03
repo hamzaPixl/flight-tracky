@@ -1,36 +1,35 @@
+import { useState } from 'react'
+import Link from 'next/link'
 import Page from '@/components/page'
 import Section from '@/components/section'
 
-const Index = () => (
-	<Page>
-		<Section>
-			<h2 className='text-xl font-semibold text-zinc-800 dark:text-zinc-200'>
-				We grow a lot of rice.
-			</h2>
+export default function Index() {
+	const [idFlight, seIdFlight] = useState('')
 
-			<div className='mt-2'>
-				<p className='text-zinc-600 dark:text-zinc-400'>
-					You love rice, and so does the rest of the world. In the crop year
-					2008/2009, the milled rice production volume amounted to over{' '}
-					<span className='font-medium text-zinc-900 dark:text-zinc-50'>
-						448 million tons
-					</span>{' '}
-					worldwide.
-				</p>
+	return (
+		<Page>
+			<Section>
+				<h2 className='text-xl font-semibold text-zinc-800 dark:text-zinc-200 flex justify-center'>
+					Flight tracker
+				</h2>
 
-				<br />
+				<div className='mt-8 flex justify-center'>
+					<input
+						type='text'
+						id='flight'
+						className='rounded-l-lg p-4 border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white'
+						placeholder='Flight'
+						onChange={(e) => {
+							seIdFlight(e.target.value)
+						}}
+					/>
+					<div className='px-8 rounded-r-lg bg-yellow-400  text-gray-800 font-bold p-4 uppercase border-yellow-500 border-t border-b border-r'>
+						<Link href={`/flight/${idFlight}`}>Track</Link>
+					</div>
+				</div>
 
-				<p className='text-sm text-zinc-600 dark:text-zinc-400'>
-					<a
-						href='https://github.com/mvllow/next-pwa-template'
-						className='underline'
-					>
-						Source
-					</a>
-				</p>
-			</div>
-		</Section>
-	</Page>
-)
-
-export default Index
+				<div></div>
+			</Section>
+		</Page>
+	)
+}

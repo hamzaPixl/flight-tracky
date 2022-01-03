@@ -1,29 +1,17 @@
 {
-	"name": "Rice Bowl",
-	"short_name": "Rice Bowl",
-	"description": "Fluffless jasmine rice for those cold winter nights",
+	"name": "Flight tracky",
+	"short_name": "Flight tracky",
+	"description": "Track your flight",
 	"icons": [
 		{
-			"src": "/images/icon-192.png",
-			"type": "image/png",
-			"sizes": "192x192"
-		},
-		{
-			"src": "/images/icon-512.png",
-			"type": "image/png",
-			"sizes": "512x512"
-		},
-		{
-			"src": "/images/icon-maskable-192.png",
-			"type": "image/png",
+			"src": "/images/android-chrome-192x192.png",
 			"sizes": "192x192",
-			"purpose": "maskable"
+			"type": "image/png"
 		},
 		{
-			"src": "/images/icon-maskable-512.png",
-			"type": "image/png",
+			"src": "/images/android-chrome-512x512.png",
 			"sizes": "512x512",
-			"purpose": "maskable"
+			"type": "image/png"
 		}
 	],
 	"start_url": "/?source=pwa",
