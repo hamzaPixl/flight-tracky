@@ -71,7 +71,7 @@ You can see here the major frameworks that was built with. Project is mainly fro
 - [x] Complete readme
 - [x] Fix icons
 - [x] Put api key in process env
-- [ ] Add GA
+- [x] Add GA
 - [ ] Add theme switcher
 - [ ] Basic SEO
 - [x] Define color scheme
