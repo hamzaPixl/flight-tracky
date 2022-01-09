@@ -6,7 +6,7 @@ const getParams = (flight: string) => ({
 	flight_iata: flight,
 })
 
-const BASE_URL = 'http://api.aviationstack.com/v1'
+const BASE_URL = 'https://api.aviationstack.com/v1'
 
 export function getFlight(flight: string): Promise<any> {
 	if(process.env.NODE_ENV === 'development'){
