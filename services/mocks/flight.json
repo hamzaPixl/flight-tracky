@@ -1,0 +1,46 @@
+{
+  "flight_date": "2022-01-08",
+  "flight_status": "landed",
+  "departure": {
+      "airport": "Cristoforo Colombo",
+      "timezone": "Europe/Rome",
+      "iata": "GOA",
+      "icao": "LIMJ",
+      "terminal": null,
+      "gate": null,
+      "delay": 3,
+      "scheduled": "2022-01-08T19:25:00+00:00",
+      "estimated": "2022-01-08T19:25:00+00:00",
+      "actual": "2022-01-08T19:28:00+00:00",
+      "estimated_runway": "2022-01-08T19:28:00+00:00",
+      "actual_runway": "2022-01-08T19:28:00+00:00"
+  },
+  "arrival": {
+      "airport": "Punta Raisi",
+      "timezone": "Europe/Rome",
+      "iata": "PMO",
+      "icao": "LICJ",
+      "terminal": "3",
+      "gate": null,
+      "baggage": null,
+      "delay": null,
+      "scheduled": "2022-01-08T21:00:00+00:00",
+      "estimated": "2022-01-08T21:00:00+00:00",
+      "actual": "2022-01-08T20:31:00+00:00",
+      "estimated_runway": "2022-01-08T20:31:00+00:00",
+      "actual_runway": "2022-01-08T20:31:00+00:00"
+  },
+  "airline": {
+      "name": "Ryanair",
+      "iata": "FR",
+      "icao": "RYR"
+  },
+  "flight": {
+      "number": "2910",
+      "iata": "FR2910",
+      "icao": "RYR2910",
+      "codeshared": null
+  },
+  "aircraft": null,
+  "live": null
+}

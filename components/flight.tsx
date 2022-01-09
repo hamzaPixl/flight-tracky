@@ -16,14 +16,12 @@ function getArrivalDate(date: string): string {
 }
 
 export default function Flight({ flight }: Props) {
-	console.log(flight)
-
 	return (
 		<div className='flex-col items-center justify-center flex-1 h-full'>
 			<div className='flex-col space-y-6 items-center justify-center pb-20'>
 				<div className='inline-flex space-x-5 items-center justify-start w-full'>
+					<p className='text-2xl text-center font-bold text-yellow-400'>{flight?.flight?.iata}</p>
 					<p className='text-2xl text-center'>{flight?.airline?.iata}</p>
-					<p className='text-2xl text-center'>{flight?.flight?.iata}</p>
 					<p className='text-2xl text-center'>Flight from</p>
 				</div>
 				<div className='inline-flex items-center justify-start'>
@@ -31,15 +29,17 @@ export default function Flight({ flight }: Props) {
 				</div>
 				<div className='inline-flex items-center justify-between w-full'>
 					<div className='inline-flex flex-col space-y-1'>
-						<p className='text-sm'>
-							{flight?.arrival?.airport} {flight?.arrival?.iata}
-						</p>
+						<div className='inline-flex space-x-2 justify-between'>
+							<p className='text-sm font-bold text-yellow-400'>{flight?.arrival?.iata}</p>
+							<p className='text-sm'>{flight?.arrival?.airport}</p>
+						</div>
 						<p className='text-sm'>Terminal {flight?.arrival?.terminal}</p>
 					</div>
 					<div className='inline-flex flex-col space-y-1'>
-						<p className='text-sm'>
-							{flight?.departure?.airport} {flight?.departure?.iata}
-						</p>
+					<div className='inline-flex space-x-2 justify-between'>
+							<p className='text-sm font-bold text-yellow-400'>{flight?.departure?.iata}</p>
+							<p className='text-sm'>{flight?.departure?.airport}</p>
+						</div>
 						<p className='text-sm'>Terminal {flight?.arrival?.terminal}</p>
 					</div>
 				</div>
@@ -47,7 +47,7 @@ export default function Flight({ flight }: Props) {
 			<div className='flex-col space-y-6 items-center justify-center pb-20'>
 				<div className='inline-flex flex-col items-start justify-start'>
 					<p className='text-xs'>Status</p>
-					<p className='text-lg font-bold uppercase'>{flight?.flight_status}</p>
+					<p className='text-lg font-bold uppercase text-yellow-400'>{flight?.flight_status}</p>
 				</div>
 				<div className='inline-flex items-center justify-between w-full'>
 					<div className='inline-flex flex-col space-y-1'>
