@@ -1,5 +1,5 @@
 <p align="center">
-	<img alt="Flight tracky" src="https://img.icons8.com/external-justicon-flat-justicon/50/000000/external-flight-mode-notifications-justicon-flat-justicon.png" width="90">
+	<img alt="Flight tracky" src="./public/images/logo.png" width="90">
 	<h2 align="center">Flight tracky</h2>
 	<p align="center">Flight tracker app</p>
 	<p align="center">Base on a <a href="https://github.com/mvllow/next-pwa-template"><strong>template</strong></a>
