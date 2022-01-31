@@ -1,10 +1,13 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
+import { GtagScript } from '../utils/analytics'
 
 class MyDocument extends Document {
 	render() {
 		return (
 			<Html lang='en'>
-				<Head />
+				<Head>
+					<GtagScript />
+				</Head>
 				<body>
 					<Main />
 					<NextScript />

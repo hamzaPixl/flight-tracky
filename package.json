@@ -1,6 +1,6 @@
 {
 	"name": "flight-tracky",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"license": "MIT",
 	"scripts": {
 		"dev": "NODE_ENV=development next dev",
@@ -14,10 +14,10 @@
 		"next-pwa": "^5.4.4",
 		"next-themes": "^0.0.15",
 		"react": "17.0.2",
-		"react-dom": "17.0.2",
-		"react-ga": "^3.3.0"
+		"react-dom": "17.0.2"
 	},
 	"devDependencies": {
+		"@types/gtag.js": "^0.0.8",
 		"@types/node": "^16.11.12",
 		"@types/react": "^17.0.37",
 		"autoprefixer": "^10.4.0",
